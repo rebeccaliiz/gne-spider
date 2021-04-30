@@ -1,0 +1,201 @@
+{
+    "data_domain": "time_conc",
+    "variables": [
+        {
+            "variable_name": "analyte",
+            "data_type": "string",
+            "origin": ["Posey", "Polaris"],
+            "cro_origin": null,
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "assay",
+            "data_type": "string",
+            "origin": ["Posey", "Polaris"],
+            "cro_origin": null,
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "assay_description",
+            "data_type": "string",
+            "origin": ["Posey", "Polaris"],
+            "cro_origin": null,
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "assay_request_no",
+            "data_type": "string",
+            "origin": ["Posey"],
+            "cro_origin": null,
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "assay_type",
+            "data_type": "string",
+            "origin": ["Posey"],
+            "cro_origin": null,
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "matrix",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "concentration_result",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "BA",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "concentration_result_numeric",
+            "data_type": "numeric",
+            "origin": ["Comet"],
+            "cro_origin": "BA",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "concentration_units",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "BA",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "conc_ug_ml",
+            "data_type": "string",
+            "origin": ["units_of_measure TX"],
+            "cro_origin": null,
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "conc_ng_ml",
+            "data_type": "string",
+            "origin": ["units_of_measure TX"],
+            "cro_origin": null,
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "cro_assay_id",
+            "data_type": "string",
+            "origin": ["Comet"],
+            "cro_origin": "BA",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "cro_study_id",
+            "data_type": "string",
+            "origin": ["Comet"],
+            "cro_origin": "BA",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "studyid",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "BA",
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "group",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "lloq",
+            "data_type": "string",
+            "origin": ["Polaris"],
+            "cro_origin": null,
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "molecule_id",
+            "data_type": "string",
+            "origin": ["Posey", "Polaris"],
+            "cro_origin": null,
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "mqc",
+            "data_type": "string",
+            "origin": ["Posey"],
+            "cro_origin": null,
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "relative_nominal_time",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "normalized_concentration",
+            "data_type": "string",
+            "origin": ["Posey"],
+            "cro_origin": null,
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "route",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "sex",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "species",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "start_day",
+            "data_type": "string",
+            "origin": ["Maps"],
+            "cro_origin": null,
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "study_day",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": true
+        },
+        {
+            "variable_name": "treatment_description",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "dose",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": false
+        },
+        {
+            "variable_name": "dose_units",
+            "data_type": "string",
+            "origin": ["Posey", "Comet"],
+            "cro_origin": "In-Life",
+            "maps_to_send": false
+        }
+    ]
+}
