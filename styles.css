@@ -1,7 +1,7 @@
 /* || general styles */
 
 html {
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-family: arial;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Noto Serif';
+  font-family: arial;
 }
 
 /* header styles */
